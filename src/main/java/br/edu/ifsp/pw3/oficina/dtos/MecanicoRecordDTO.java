@@ -1,6 +1,12 @@
 package br.edu.ifsp.pw3.oficina.dtos;
 
-public record MecanicoRecordDTO(String nome_mecanico, int anos_experiencia) {
+import jakarta.validation.constraints.NotBlank;
+
+public record MecanicoRecordDTO(
+        @NotBlank
+        String nome_mecanico,
+
+        String anos_experiencia) {
 }
 
 

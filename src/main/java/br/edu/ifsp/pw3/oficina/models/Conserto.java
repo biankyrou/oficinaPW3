@@ -30,4 +30,20 @@ public class Conserto {
         this.mecanico = new Mecanico(dados.mecanico());
         this.veiculo = new Veiculo(dados.veiculo());
     }
+
+    public String getData_entrada() {
+        return data_entrada;
+    }
+
+    public String getData_saida() {
+        return data_saida;
+    }
+
+    public Mecanico getMecanico() {
+        return mecanico;
+    }
+
+    public Veiculo getVeiculo() {
+        return veiculo;
+    }
 }
