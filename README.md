@@ -2,7 +2,6 @@
 Este repositório contém o código e recursos do projeto desenvolvido para a disciplina de Programação Web 3 (PW3). O foco principal é a aplicação de conceitos e práticas usando Spring Boot, uma estrutura robusta para criar aplicações Java web.
 
 ### Estrutura do Projeto
-- Branch Principal: master
 - Tecnologia Principal: Spring Boot
 - Objetivo: Praticar o desenvolvimento web back-end, utilizando ferramentas e conceitos aprendidos na disciplina de PW3.
 
